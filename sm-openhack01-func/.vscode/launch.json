@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "smhttptrig01",
+            "type": "python",
+            "request": "attach",
+            "port": 80,
+            "preLaunchTask": "func: host start"
+        }
+    ]
+}
